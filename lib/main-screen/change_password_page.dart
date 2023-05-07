@@ -10,6 +10,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'components/navigation_drawer.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
+
 Future<void> changePassword(
     BuildContext context, String currentPassword, String newPassword) async {
   try {
@@ -135,6 +136,10 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
               elevation: 0,
               backgroundColor: Color.fromARGB(255, 88, 169, 212),
               automaticallyImplyLeading: false,
+              leading: IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () => Navigator.of(context).pop(),
+              ),
             ),
             body: Form(
               child: Padding(
