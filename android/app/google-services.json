@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015456418369",
+    "firebase_url": "https://appkhaosat-5b1fa-default-rtdb.firebaseio.com",
+    "project_id": "appkhaosat-5b1fa",
+    "storage_bucket": "appkhaosat-5b1fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015456418369:android:d158aa12e06de7d3c094c0",
+        "android_client_info": {
+          "package_name": "com.example.appkhaosat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015456418369-dvakm56hnnqslpl26c6sg6ik397qho19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtEsMfx7F94X1F4IVhabUrcOmZSrA3pFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015456418369-dvakm56hnnqslpl26c6sg6ik397qho19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

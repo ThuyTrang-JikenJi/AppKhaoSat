@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1015456418369-iubttrbk0rqg8kl7eo8vt4rape4in7s4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1015456418369-iubttrbk0rqg8kl7eo8vt4rape4in7s4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA7yKQ1f5w3VY-hgR2xlXHioW4pORRHOXo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1015456418369</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.appkhaosat</string>
+	<key>PROJECT_ID</key>
+	<string>appkhaosat-5b1fa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appkhaosat-5b1fa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1015456418369:ios:ffd805136760cd2fc094c0</string>
+	<key>DATABASE_URL</key>
+	<string>https://appkhaosat-5b1fa-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
