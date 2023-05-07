@@ -1,3 +1,4 @@
+import 'package:appkhaosat/main-screen/change_password_page.dart';
 import 'package:appkhaosat/main-screen/components/widget/card-horizontal.dart';
 import 'package:appkhaosat/main-screen/components/widget/card-small.dart';
 import 'package:appkhaosat/main-screen/components/widget/card-square.dart';
@@ -58,12 +59,32 @@ class AccountPage extends StatelessWidget {
               automaticallyImplyLeading: false,
             ),
             body: Center(
-              child: ElevatedButton(
-                onPressed: onScreenHideButtonPressed,
-                child: Text(
-                  hideStatus ? "Unhide Navigation Bar" : "Hide Navigation Bar",
-                  style: const TextStyle(color: Colors.white),
-                ),
+              child: Column(
+                children: [
+                  ElevatedButton.icon(
+                    icon: Icon(Icons.edit),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ChangePasswordPage()),
+                      );
+                    },
+                    label: Text(
+                      "Change Password",
+                      style: const TextStyle(color: Colors.white, fontSize: 15),
+                    ),
+                  ),
+                  ElevatedButton(
+                    onPressed: onScreenHideButtonPressed,
+                    child: Text(
+                      hideStatus
+                          ? "Unhide Navigation Bar"
+                          : "Hide Navigation Bar",
+                      style: const TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
